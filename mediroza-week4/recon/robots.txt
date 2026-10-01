@@ -1,0 +1,7 @@
+# robots.txt
+User-agent: *
+Disallow: /patient/
+Disallow: /staff/
+Disallow: /old/
+
+Sitemap: https://medirozahospital.com/sitemap.xml

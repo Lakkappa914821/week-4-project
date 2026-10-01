@@ -1,0 +1,68 @@
+========== M2 PDF PASSWORD RECOVERY EVIDENCE ==========
+
+[1] REPORT 1
+Password verified through qpdf decryption
+R = 3
+P = -4
+User password = 123456
+Supplied password is owner password
+Supplied password is user password
+extract for accessibility: allowed
+extract for any purpose: allowed
+print low resolution: allowed
+print high resolution: allowed
+modify document assembly: allowed
+modify forms: allowed
+modify annotations: allowed
+modify other: allowed
+modify anything: allowed
+
+[2] REPORT 2
+Password verified through qpdf decryption
+R = 3
+P = -4
+User password = password
+Supplied password is owner password
+Supplied password is user password
+extract for accessibility: allowed
+extract for any purpose: allowed
+print low resolution: allowed
+print high resolution: allowed
+modify document assembly: allowed
+modify forms: allowed
+modify annotations: allowed
+modify other: allowed
+modify anything: allowed
+
+[3] REPORT 3
+Password verified through qpdf decryption
+R = 3
+P = -4
+User password = !@#$%^&
+Supplied password is owner password
+Supplied password is user password
+extract for accessibility: allowed
+extract for any purpose: allowed
+print low resolution: allowed
+print high resolution: allowed
+modify document assembly: allowed
+modify forms: allowed
+modify annotations: allowed
+modify other: allowed
+modify anything: allowed
+
+[4] DECRYPTED FILES
+m2/decrypted/report-1.pdf: PDF document, version 1.4, 1 page(s)
+m2/decrypted/report-2.pdf: PDF document, version 1.4, 1 page(s)
+m2/decrypted/report-3.pdf: PDF document, version 1.4, 1 page(s)
+
+[5] ENCRYPTION STATUS
+Title:           Pathology Report - S. Dlamini
+Pages:           1
+Encrypted:       no
+Title:           Pathology Report - P. Reddy
+Pages:           1
+Encrypted:       no
+Title:           Pathology Report - E. Thompson
+Pages:           1
+Encrypted:       no

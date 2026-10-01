@@ -1,0 +1,109 @@
+14 Cedar Avenue, Johannesburg, South Africa
+Tel: +27 11 555 0100
+medirozahospital.com
+
+Mediroza
+General Hospital
+
+PATHOLOGY LABORATORY REPORT
+
+CONFIDENTIAL
+
+Patient Name:
+
+Emily Thompson
+
+Report Date:
+
+2024-11-06
+
+Patient ID:
+
+MG-P-10258
+
+Referring Dr:
+
+Dr. Ahmed Kara
+
+Date of Birth:
+
+1978-09-03
+
+Specimen:
+
+Serum
+
+Gender:
+
+Female
+
+Lab Ref No:
+
+LR-2024-1205
+
+TEST
+
+RESULT
+
+UNIT
+
+REFERENCE RANGE
+
+FLAG
+
+Haemoglobin
+
+11.4
+
+g/dL
+
+12.0 - 15.5
+
+LOW
+
+Ferritin
+
+9
+
+ug/L
+
+15 - 150
+
+LOW
+
+TSH
+
+3.1
+
+mIU/L
+
+0.4 - 4.0
+
+Normal
+
+Vitamin D
+
+42
+
+nmol/L
+
+50 - 125
+
+LOW
+
+Fasting Glucose
+
+5.1
+
+mmol/L
+
+3.9 - 5.5
+
+Normal
+
+Reported by: Dr. Rajesh Naidoo, MBBCh FCPath
+Mediroza Diagnostics Lab - SANAS accredited pathology laboratory (Ref M0417)
+This report is confidential and intended only for the named patient and the referring clinician.
+Verified electronically. No signature required. Mediroza CMS 1.4.2
+
+

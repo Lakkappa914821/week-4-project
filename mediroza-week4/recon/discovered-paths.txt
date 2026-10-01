@@ -1,0 +1,67 @@
+===== /patient/ =====
+HTTP/2 200 
+content-type: text/html; charset=UTF-8
+content-length: 3419
+date: Tue, 29 Sep 2026 10:27:58 GMT
+server: LiteSpeed
+x-turbo-charged-by: LiteSpeed
+
+<!DOCTYPE html><html><head><meta http-equiv="Content-type" content="text/html; charset=UTF-8" /><meta name="viewport" content="width=device-width, initial-scale=1.0" /><link rel="stylesheet" href="/_autoindex/assets/css/autoindex.css" /><script src="/_autoindex/assets/js/tablesort.js"></script><script src="/_autoindex/assets/js/tablesort.number.js"></script><title>Index of /patient/</title><style>@media (prefers-color-scheme:dark){body{background-color:#000!important}}</style></head><body><div class="content"><h1 style="color: #555;">Index of /patient/</h1>
+<div id="table-filter"><input type="text" name="keyword" id="filter-keyword" placeholder="Filter Name"></div>
+<div id="table-list"><table id="table-content"><thead class="t-header"><tr><th class="colname" aria-sort="ascending"><a class="name" href="?ND"  onclick="return false"">Name</a></th><th class="colname" data-sort-method="number"><a href="?MA"  onclick="return false"">Last Modified</a></th><th class="colname" data-sort-method="number"><a href="?SA"  onclick="return false"">Size</a></th></tr></thead>
+<tr data-sort-method="none"><td><a href="/"><img class="icon" src="/_autoindex/assets/icons/corner-left-up.svg" alt="Up">Parent Directory</a></td><td></td><td></td></tr>
+<tr><td data-sort="*reports"><a href="/patient/reports/"><img class="icon" src="/_autoindex/assets/icons/folder-fill.svg" alt="Directory">reports</a></td><td data-sort="211687433">2026-09-04 02:03</td><td data-sort="-1">-</td></tr>
+<tr><td data-sort="download.php"><a href="/patient/download.php"><img class="icon" src="/_autoindex/assets/icons/file-text.svg" alt="[TXT]">download.php</a></td><td data-sort="1788487491">2026-09-04 02:04</td><td data-sort="715">      1k</td></tr>
+<tr><td data-sort="error_log"><a href="/patient/error_log"><img class="icon" src="/_autoindex/assets/icons/file.svg" alt="File">error_log</a></td><td data-sort="1789190742">2026-09-12 05:25</td><td data-sort="247865">    243k</td></tr>
+<tr><td data-sort="login.php"><a href="/patient/login.php"><img class="icon" src="/_autoindex/assets/icons/file-text.svg" alt="[TXT]">login.php</a></td><td data-sort="1788532095">2026-09-04 14:28</td><td data-sort="3742">      4k</td></tr>
+<tr><td data-sort="logout.php"><a href="/patient/logout.php"><img class="icon" src="/_autoindex/assets/icons/file-text.svg" alt="[TXT]">logout.php</a></td><td data-sort="1788487491">2026-09-04 02:04</td><td data-sort="122">      1k</td></tr>
+<tr><td data-sort="portal.php"><a href="/patient/portal.php"><img class="icon" src="/_autoindex/assets/icons/file-text.svg" alt="[TXT]">portal.php</a></td><td data-sort="1788487484">2026-09-04 02:04</td><td data-sort="2275">      3k</td></tr>
+</table></div>
+<address>Proudly Served by LiteSpeed Web Server at medirozahospital.com Port 443</address></div><script>
+	new Tablesort(document.getElementById("table-content"));
+	var keywordInput = document.getElementById('filter-keyword');
+	document.addEventListener('keyup', filterTable);
+
+	function filterTable(e) {
+		if (e.target.id != 'filter-keyword') return;
+
+		var cols = document.querySelectorAll('tbody td:first-child');
+		var keyword = keywordInput.value.toLowerCase();
+		for (i = 0; i < cols.length; i++) {
+			var text = cols[i].textContent.toLowerCase();
+			if (text != 'parent directory') {
+				cols[i].parentNode.style.display = text.indexOf(keyword) === -1 ? 'none' : 'table-row';
+			}
+		}
+	}
+</script></body></html>
+
+===== /staff/ =====
+HTTP/2 200 
+content-type: text/html; charset=UTF-8
+content-length: 1568
+date: Tue, 29 Sep 2026 10:28:00 GMT
+server: LiteSpeed
+x-turbo-charged-by: LiteSpeed
+
+<!DOCTYPE html><html><head><meta http-equiv="Content-type" content="text/html; charset=UTF-8" /><meta name="viewport" content="width=device-width, initial-scale=1.0" /><link rel="stylesheet" href="/_autoindex/assets/css/autoindex.css" /><script src="/_autoindex/assets/js/tablesort.js"></script><script src="/_autoindex/assets/js/tablesort.number.js"></script><title>Index of /staff/</title><style>@media (prefers-color-scheme:dark){body{background-color:#000!important}}</style></head><body><div class="content"><h1 style="color: #555;">Index of /staff/</h1>
+<div id="table-list"><table id="table-content"><thead class="t-header"><tr><th class="colname" aria-sort="ascending"><a class="name" href="?ND"  onclick="return false"">Name</a></th><th class="colname" data-sort-method="number"><a href="?MA"  onclick="return false"">Last Modified</a></th><th class="colname" data-sort-method="number"><a href="?SA"  onclick="return false"">Size</a></th></tr></thead>
+<tr data-sort-method="none"><td><a href="/"><img class="icon" src="/_autoindex/assets/icons/corner-left-up.svg" alt="Up">Parent Directory</a></td><td></td><td></td></tr>
+<tr><td data-sort="login.php"><a href="/staff/login.php"><img class="icon" src="/_autoindex/assets/icons/file-text.svg" alt="[TXT]">login.php</a></td><td data-sort="1788487502">2026-09-04 02:05</td><td data-sort="2222">      3k</td></tr>
+</table></div>
+<address>Proudly Served by LiteSpeed Web Server at medirozahospital.com Port 443</address></div><script>new Tablesort(document.getElementById("table-content"));</script></body></html>
+
+===== /old/ =====
+HTTP/2 200 
+content-type: text/html; charset=UTF-8
+content-length: 1610
+date: Tue, 29 Sep 2026 10:28:02 GMT
+server: LiteSpeed
+x-turbo-charged-by: LiteSpeed
+
+<!DOCTYPE html><html><head><meta http-equiv="Content-type" content="text/html; charset=UTF-8" /><meta name="viewport" content="width=device-width, initial-scale=1.0" /><link rel="stylesheet" href="/_autoindex/assets/css/autoindex.css" /><script src="/_autoindex/assets/js/tablesort.js"></script><script src="/_autoindex/assets/js/tablesort.number.js"></script><title>Index of /old/</title><style>@media (prefers-color-scheme:dark){body{background-color:#000!important}}</style></head><body><div class="content"><h1 style="color: #555;">Index of /old/</h1>
+<div id="table-list"><table id="table-content"><thead class="t-header"><tr><th class="colname" aria-sort="ascending"><a class="name" href="?ND"  onclick="return false"">Name</a></th><th class="colname" data-sort-method="number"><a href="?MA"  onclick="return false"">Last Modified</a></th><th class="colname" data-sort-method="number"><a href="?SA"  onclick="return false"">Size</a></th></tr></thead>
+<tr data-sort-method="none"><td><a href="/"><img class="icon" src="/_autoindex/assets/icons/corner-left-up.svg" alt="Up">Parent Directory</a></td><td></td><td></td></tr>
+<tr><td data-sort="mediroza_db_backup_2019.sql"><a href="/old/mediroza_db_backup_2019.sql"><img class="icon" src="/_autoindex/assets/icons/file.svg" alt="File">mediroza_db_backup_2019.sql</a></td><td data-sort="1788487331">2026-09-04 02:02</td><td data-sort="6346">      7k</td></tr>
+</table></div>
+<address>Proudly Served by LiteSpeed Web Server at medirozahospital.com Port 443</address></div><script>new Tablesort(document.getElementById("table-content"));</script></body></html>

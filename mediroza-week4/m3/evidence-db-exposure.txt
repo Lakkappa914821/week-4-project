@@ -1,0 +1,19 @@
+===== EXPOSED DATABASE BACKUP =====
+URL: https://medirozahospital.com/old/mediroza_db_backup_2019.sql
+
+===== HTTP HEADERS =====
+HTTP/2 200 
+content-type: text/x-sql
+last-modified: Fri, 04 Sep 2026 02:02:11 GMT
+accept-ranges: bytes
+content-length: 6346
+date: Tue, 29 Sep 2026 10:45:23 GMT
+server: LiteSpeed
+x-turbo-charged-by: LiteSpeed
+
+
+===== DATABASE TABLES =====
+15:CREATE TABLE `staff` (
+32:INSERT INTO `staff` (`id`,`full_name`,`job_title`,`department`,`email`,`phone`,`national_id`,`monthly_salary_zar`,`date_joined`) VALUES
+69:CREATE TABLE `shareholders` (
+79:INSERT INTO `shareholders` (`id`,`shareholder_name`,`share_percent`,`shares_held`,`share_class`) VALUES
